@@ -111,4 +111,18 @@ public class Entry {
     public void setCategory(String category) {
         this.category = category;
     }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Entry{" +
+                "id=" + id +
+                ", api='" + api + '\'' +
+                ", link='" + link + '\'' +
+                ", description='" + description + '\'' +
+                ", auth='" + auth + '\'' +
+                ", HTTPS=" + HTTPS +
+                ", cors='" + cors + '\'' +
+                ", category='" + category + '\'' +
+                '}';
+    }
 }
